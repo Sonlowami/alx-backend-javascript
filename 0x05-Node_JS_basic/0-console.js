@@ -3,6 +3,6 @@
  * @message: A string repesenting the message to write
  */
 function displayMessage(message) {
-  process.stdout.write(`${message}\n`);
+  console.log(`${message}`);
 }
 module.exports = displayMessage;
